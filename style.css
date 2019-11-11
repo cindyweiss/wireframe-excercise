@@ -1,59 +1,50 @@
-/* .nav{
-  background: grey;
-  margin: 10px;
-  text-align: center;
-}
 
-.nav li {
-  display: inline-block;
-  padding: 40px;
-  color: aliceblue;
-  }
-
-div {
-  margin-top: 30px;
-} */
 
 * {
 font-family: Arial, Helvetica, sans-serif;
 color: rgb(85, 80, 74);
-text-align: center;
 }
   
+body{
+  width: 1260px;
+}
+
 li {
   display: inline;
   padding: 30px;
-  
-}
-ul{
+  }
+
+  ul{
   background-color: grey;
 }
-#main {
-  margin-top: 25px;
-}
 
-
-.article {
-margin-right: 25px;
+.article{
+margin-right: 17px;
 display: inline-block;
 }
 
-/* .text{
-width: 480;
-height: 400;
-overflow: auto;
-} */
-
 .scroll{
-  max-width: 480;
+  max-width: 480px;
+  max-height: 370px;
   overflow: scroll;
+  text-align: center;
 }
 
 
-.footer {
-  background-color: grey;
-  height: 100px
+.text{
+  width: 480px;
+  height: 400px;
+  text-align: center;
+  border: blueviolet 2px solid;
+  margin: 0;
 }
-.feature {
-  float: left;
+
+.feature{
+  margin: 0;
+  width: 480px;
+}
+
+footer {
+background-color: grey;
+height: 100px
 }
