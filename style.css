@@ -38,16 +38,22 @@ margin-right: 25px;
 display: inline-block;
 }
 
-.text{
+/* .text{
 width: 480;
 height: 400;
 overflow: auto;
+} */
+
+.scroll{
+  max-width: 480;
+  overflow: scroll;
 }
-
-
 
 
 .footer {
   background-color: grey;
   height: 100px
+}
+.feature {
+  float: left;
 }
