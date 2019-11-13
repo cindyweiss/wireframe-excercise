@@ -28,6 +28,8 @@ display: inline-block;
   max-height: 370px;
   overflow: scroll;
   text-align: center;
+  width: fit-content;
+margin: 0%;
 }
 
 
@@ -39,9 +41,13 @@ display: inline-block;
   margin: 0;
 }
 
-.feature{
+.feature {
   margin: 0;
-  width: 480px;
+  display: inline-block;
+}
+.feature p{
+  width: 480;
+  margin: 0%;
 }
 
 footer {
